@@ -1,18 +1,2 @@
-
-/**
- * Perfect Audience
- */
-
-.logo[data-logo="Perfect Audience"] {
-  width: 7.528130672em;
-  /* (518.5/38.57) * (1-.22-.22) - 0 */
-}
-
-.logo[data-logo="Perfect Audience"] > * {
-  background-image: url(images/logo.svg);
-  margin: .27em 0 .17em 0;
-}
-
-.logo[data-logo="Perfect Audience"].monochromatic > * {
-  background-image: url(images/logo-monochromatic.svg);
-}
+@import 'logo/logo';
+@import './style';
